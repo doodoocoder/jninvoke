@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\jninvoke.dir/objects.a
+C:\mingw32\bin\ar.exe cr CMakeFiles\jninvoke.dir/objects.a @CMakeFiles\jninvoke.dir\objects1.rsp
+C:\mingw32\bin\g++.exe  -g -Wl,--add-stdcall-alias -shared -o libjninvoke.dll -Wl,--out-implib,libjninvoke.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\jninvoke.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\jninvoke.dir\linklibs.rsp
