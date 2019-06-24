@@ -193,7 +193,7 @@ int main() {
     void* pointer = 0;
     const char *cFunctionName="Initialize";
     const char *cLibName="HNBridge.dll";
-    //加载library并寻找过程function
+    //加载library并寻找过程function,pointer就是函数指针
     loadLib(cLibName, cFunctionName, &hModule, &pointer);
 
     int returnedValue =0;
